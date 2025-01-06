@@ -1,1 +1,3 @@
 # HealthCare_Chatbot_System_AI
+A chatbot is an artificial intelligence (AI) software that can simulate a conversation (or a chat) with a user in natural language through messaging.
+"This project provides a text-to-text conversational agent that asks the user about their health issue. The user can chat as if chatting with a human. The bot then asks the user a series of questions about their symptoms to diagnose the disease. It gives suggestions about the different symptoms to clarify the disease. Based on the reply from the user the accurate disease is found and it suggests the doctor who needs to be consulted in case of major disease. The system remembers past responses and asks progressively more specific questions in order to obtain a good diagnosis."
