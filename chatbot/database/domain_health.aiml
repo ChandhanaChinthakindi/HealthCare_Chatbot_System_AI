@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<meta name="language" content="en"/>
+
+<category><pattern>I AM SAFFURING WITH HEADACHE</pattern>
+<template>
+<srai>I HAVE HEADACHE</srai>
+</template>
+</category>
+
+
+<category><pattern> HEADACHE</pattern>
+<template>
+<srai>I HAVE HEADACHE</srai>
+</template>
+</category>
+
+<category><pattern>FEVER</pattern>
+<template>
+<srai>I HAVE FEVER</srai>
+</template>
+</category>
+
+<category><pattern>COUGH</pattern>
+<template>
+<srai>I HAVE COUGH</srai>
+</template>
+</category>
+
+<category><pattern>ALLERGY</pattern>
+<template>
+<srai>I HAVE ALLERGY</srai>
+</template>
+</category>
+
+
+<category><pattern>ASTHMA</pattern>
+<template>
+<srai>I HAVE ASTHMA</srai>
+</template>
+</category>
+
+
+<category><pattern>BP</pattern>
+<template>
+<srai>I HAVE BLOOD PRESSURE</srai>
+</template>
+</category>
+
+<category><pattern>BLOOD PRESSURE</pattern>
+<template>
+<srai>I HAVE BLOOD PRESSURE</srai>
+</template>
+</category>
+
+
+<category><pattern>CANCER</pattern>
+<template>
+<srai>I HAVE CANCER</srai>
+</template>
+</category>
+
+
+<category><pattern>DIABETES</pattern>
+<template>
+<srai>I HAVE DIABETES</srai>
+</template>
+</category>
+
+
+<category><pattern>THYROID</pattern>
+<template>
+<srai>I HAVE THYROID</srai>
+</template>
+</category>
+
+<category><pattern>DEPRESSION</pattern>
+<template>
+<srai>I HAVE DEPRESSION</srai>
+</template>
+</category>
+
+<category>
+      <pattern>I HAVE HEADACHE</pattern>
+      <template>
+		<random>
+			<li>May be you have MIGRANE :- 01.DO YOU WANT TO CONSULT DOCTOR? 02.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 01 or 02</li>
+			<li>May be you have MIGRANE :- 01.DO YOU WANT TO CONSULT DOCTOR? 02.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 01 or 02</li>
+			<li>May be you have MIGRANE :- 01.DO YOU WANT TO CONSULT DOCTOR? 02.CAN I SUGGEST ANY REMEDIES FOR YOU?select option 01 or 02</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>01</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.krishna at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.Raghu at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>02 </pattern>
+      <template>
+		<random>
+			<li> okay DOLO650 and take rest</li>
+			<li>okay take DOLO650 and take rest</li>
+			<li>okay take DOLO650 and take rest</li>
+		</random>
+	  </template>
+    </category>
+
+
+
+<category>
+      <pattern>I HAVE FEVER</pattern>
+      <template>
+		<random>
+			<li>  03.DO YOU WANT TO CONSULT DOCTOR? 04.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 03 or 04</li>
+			<li> 03.DO YOU WANT TO CONSULT DOCTOR? 04.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 03 or 04</li>
+			<li> 03.DO YOU WANT TO CONSULT DOCTOR? 04.CAN I SUGGEST ANY REMEDIES FOR YOU?select option 03 or 04</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>03</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>04</pattern>
+      <template>
+		<random>
+			<li> okay aspirin 325 and take rest</li>
+			<li>okay take aspirin 81 and take rest</li>
+			<li>okay take acetaminophen 325 and take rest</li>
+		</random>
+	  </template>
+    </category>
+
+
+<category>
+      <pattern>I HAVE COUGH</pattern>
+      <template>
+		<random>
+			<li>  05.DO YOU WANT TO CONSULT DOCTOR? 06.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 05 or 06</li>
+			<li> 05.DO YOU WANT TO CONSULT DOCTOR? 06.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 05 or 6</li>
+			<li> 05.DO YOU WANT TO CONSULT DOCTOR? 06.CAN I SUGGEST ANY REMEDIES FOR YOU?select option 05 or 06</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>05</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>06 </pattern>
+      <template>
+		<random>
+			<li> take alkaston b6 syrup </li>
+			<li>okay take  Dabur Honitus Madhuvaani - 150 Gm </li>
+			<li>okay take  Tusq X 100 ml </li>
+		</random>
+	  </template>
+    </category>
+
+<category>
+      <pattern>I HAVE DEPRESSION </pattern>
+      <template>
+		<random>
+		
+			<li>USE citalopram (Celexa)</li>
+			<li>okay take  sertraline (Zoloft) </li>
+		</random>
+	  </template>
+    </category>
+
+
+
+
+
+	
+
+<category>
+      <pattern>I HAVE A HEADACH AND SORE THROAT </pattern>
+      <template>
+		<random>
+			<li> okay since how long have you had these symptons</li>
+			<li>okay since how long have you had these symptons</li>
+			<li>okay since how long have you had these symptons</li>
+		</random>
+	  </template>
+    </category>
+
+
+<category>
+      <pattern>I HAVE ALLERGY</pattern>
+      <template>
+		<random>
+			<li>  07.DO YOU WANT TO CONSULT DOCTOR? 08.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 07 or 08</li>
+			<li>  07.DO YOU WANT TO CONSULT DOCTOR? 08.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 07 or 08</li>
+	
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>07</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>08</pattern>
+      <template>
+		<random>
+			<li> take claritin</li>
+			<li>okay take  xyzal </li>
+			<li>okay take  allegra </li>
+		</random>
+	  </template>
+    </category>
+
+
+<category>
+      <pattern>I HAVE ASTHMA</pattern>
+      <template>
+		<random>
+			<li>  09.DO YOU WANT TO CONSULT DOCTOR? 08.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 09 or 10</li>
+			<li>  09.DO YOU WANT TO CONSULT DOCTOR? 08.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 07 or 10</li>
+	
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>09</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>10</pattern>
+      <template>
+		<random>
+			<li> B-GAP </li>
+			<li>okay take CETIRIZINE HYDROCHLORIDE  </li>
+			<li>okay take  ASTHAMON-L</li>
+		</random>
+	  </template>
+    </category>
+
+
+
+<category>
+      <pattern>I HAVE BLOOD PRESSURE</pattern>
+      <template>
+		<random>
+			<li>  11.DO YOU WANT TO CONSULT DOCTOR? 12.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 11 or 12</li>
+			
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>11</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>12</pattern>
+      <template>
+		<random>
+			<li> amlodipine (Norvasc, Lotrel) </li>
+			<li> OKAY TAKE bisoprolol (Zebeta)</li>
+			<li>okay take  metoprolol tartrate (Lopressor)</li>
+		</random>
+	  </template>
+    </category>
+
+
+
+<category>
+      <pattern>I HAVE CANCER</pattern>
+      <template>
+		<random>
+			<li>  13.DO YOU WANT TO CONSULT DOCTOR? 14.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 13 or 14</li>
+			
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>13</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>14</pattern>
+      <template>
+		<random>
+			<li>Femara (letrozole) </li>
+			<li> OKAY use Zytiga (abiraterone)</li>
+			<li>okay takeMatulane (procarbazine)</li>
+		</random>
+	  </template>
+    </category>
+
+
+<category>
+      <pattern>I HAVE DIABETES</pattern>
+      <template>
+		<random>
+			<li>  15.DO YOU WANT TO CONSULT DOCTOR? 16.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 15 or 16</li>
+			
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>15</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>16</pattern>
+      <template>
+		<random>
+			<li>glimepiride (Amaryl)</li>
+			<li> OKAY use glimepiride-rosiglitazone (Avandaryl)</li>
+			<li>okay take glyburide (DiaBeta, Glynase, Micronase)</li>
+		</random>
+	  </template>
+    </category>
+
+
+
+
+
+
+<category>
+      <pattern>I HAVE THYROID</pattern>
+      <template>
+		<random>
+			<li>  17.DO YOU WANT TO CONSULT DOCTOR? 18.CAN I SUGGEST ANY REMEDIES FOR YOU? select option 17 or 18</li>
+			
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>17</pattern>
+      <template>
+		<random>
+			<li> OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya </li>
+			<li>OK WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+			<li>okay WHICH HOSPITAL DO YOU WANT TO GO. HOSPITALS NEAR TO YOU a. yashoda b. kims c. Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	
+<category>
+      <pattern>A</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @yashoda</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>B</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @kims</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>C</pattern>
+      <template>
+		<random>
+			<li> okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+			<li>okay! i will book your appointment with Dr.shiva at 2pm @Ousmaniya</li>
+		</random>
+	  </template>
+    </category>
+
+	<category>
+      <pattern>18</pattern>
+      <template>
+		<random>
+			<li>levothyroxine</li>
+			<li> OKAY use THYROCARE</li>
+			<li>okay take THYROCARE</li>
+		</random>
+	  </template>
+    </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<category>
+      <pattern>UNDERTAKING DEAN ADMISSIONS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the undertaking by Dean Admissions : http://www.rknec.edu/Admissions/admissionlanding.aspx</li>
+			<li>Please goto this link to view the undertaking by Dean Admissions : http://www.rknec.edu/Admissions/admissionlanding.aspx</li>
+			<li>Have a look over here to view the undertaking by Dean Admissions : http://www.rknec.edu/Admissions/admissionlanding.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DEAN ADMISSIONS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the details of Dean Admissions : http://www.rknec.edu/About/Administration/DeanAdmissions.aspx</li>
+			<li>Please goto this link to view the details of Dean Admissions : http://www.rknec.edu/About/Administration/DeanAdmissions.aspx</li>
+			<li>Have a look over here to view the details of Dean Admissions : http://www.rknec.edu/About/Administration/DeanAdmissions.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>NRI</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the details of NRI Admission Procedure : http://nri-admissions.org/</li>
+			<li>Please goto this link to view the details of NRI Admission Procedure : http://nri-admissions.org/</li>
+			<li>Have a look over here to view the details of NRI Admission Procedure : http://nri-admissions.org/</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FIRST YEAR BE ADMISSIONS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the guidelines of First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx</li>
+			<li>Please goto this link to view the guidelines of First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx</li>
+			<li>Have a look over here to view the guidelines of First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx</li>
+		</random>
+	  </template>
+    </category>
+	
+	<category>
+      <pattern>ELIGIBILITY ADMISSION FIRST YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Please goto this link to view the eligibility criteria to First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Have a look over here to view the eligibility criteria to First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION FIRST YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Please goto this link to view the seat distribution for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Have a look over here to view the seat distribution for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS ADMISSION FIRST YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for  First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Please goto this link to view the documents required for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Have a look over here to view the documents required for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE FIRST YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for  First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Please goto this link to view the fee structure required for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+			<li>Have a look over here to view the fee structure for First Year BE Admissions : http://www.rknec.edu/Admissions/First-Year.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ELIGIBILITY ADMISSION DIRECT SECOND YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Please goto this link to view the eligibility criteria to Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Have a look over here to view the eligibility criteria to Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION DIRECT SECOND YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Please goto this link to view the seat distribution for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Have a look over here to view the seat distribution for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS ADMISSION DIRECT SECOND YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for  Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Please goto this link to view the documents required for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Have a look over here to view the documents required for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE DIRECT SECOND YEAR BE</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for  Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Please goto this link to view the fee structure required for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+			<li>Have a look over here to view the fee structure for Direct Second Year BE Admissions : http://www.rknec.edu/Admissions/AdmissionDirect2ndYearBE.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ELIGIBILITY ADMISSION MBA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Please goto this link to view the eligibility criteria to MBA Admissions :http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Have a look over here to view the eligibility criteria to MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION MBA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Please goto this link to view the seat distribution for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Have a look over here to view the seat distribution for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS ADMISSION MBA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Please goto this link to view the documents required for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Have a look over here to view the documents required for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE MBA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Please goto this link to view the fee structure required for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+			<li>Have a look over here to view the fee structure for MBA Admissions : http://www.rknec.edu/Admissions/AdmissionMBA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ELIGIBILITY CRITERIA ADMISSION MBA INTEGRATED</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Please goto this link to view the eligibility criteria to MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Have a look over here to view the eligibility criteria to MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION MBA INTEGRATED</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Please goto this link to view the seat distribution for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Have a look over here to view the seat distribution for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS ADMISSION MBA INTEGRATED</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Please goto this link to view the documents required for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Have a look over here to view the documents required for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE MBA INTEGRATED</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Please goto this link to view the fee structure required for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+			<li>Have a look over here to view the fee structure for MBA Integrated Admissions : http://www.rknec.edu/Admissions/AdmissionMBAIntegrated.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ELIGIBILITY CRITERIA ADMISSION MTECH</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Please goto this link to view the eligibility criteria to M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Have a look over here to view the eligibility criteria to M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION MTECH</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Please goto this link to view the seat distribution for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Have a look over here to view the seat distribution for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS ADMISSION MTECH</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Please goto this link to view the documents required for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Have a look over here to view the documents required for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE MTECH</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Please goto this link to view the fee structure required for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+			<li>Have a look over here to view the fee structure for M.Tech Admissions : http://www.rknec.edu/Admissions/AdmissionMTech.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ELIGIBILITY ADMISSION MCA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the eligibility criteria to MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Please goto this link to view the eligibility criteria to MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Have a look over here to view the eligibility criteria to MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>SEAT DISTRIBUTION ADMISSION MCA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the seat distribution for  MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Please goto this link to view the seat distribution for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Have a look over here to view the seat distribution for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCUMENTS REQUIRED ADMISSION MCA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the documents required for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Please goto this link to view the documents required for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Have a look over here to view the documents required for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>FEE STRUCTURE MCA</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the fee structure for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Please goto this link to view the fee structure required for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+			<li>Have a look over here to view the fee structure for MCA Admissions : http://www.rknec.edu/Admissions/AdmissionMCA.aspx#</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>DOCTORAL PROGRAMMES</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the Doctoral Programmes offered : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Please goto this link to view the Doctoral Programmes offered : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Have a look over here to view the Doctoral Programmes offered : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>PHD SUPERVISORS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the list of PhD supervisors : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Please goto this link to view the list of PhD supervisors : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Have a look over here to view the list of PhD supervisors : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>PHD SCHOLARS</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the list of PhD scholars: http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Please goto this link to view the list of PhD scholars : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Have a look over here to view the list of PhD scholars : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>PHD GUIDELINES</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the PhD programme guidelines: http://www.rknec.edu/R%20and%20D/Docs/PhD%20Admissions%20Guidelines%202018%20v%200.pdf</li>
+			<li>Please goto this link to view the PhD programme guidelines : http://www.rknec.edu/R%20and%20D/Docs/PhD%20Admissions%20Guidelines%202018%20v%200.pdf</li>
+			<li>Have a look over here to view the PhD programme guidelines : http://www.rknec.edu/R%20and%20D/Docs/PhD%20Admissions%20Guidelines%202018%20v%200.pdf</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>UNIVERSITY ORDINANCES</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the university ordinances : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Please goto this link to view the university ordinances : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Have a look over here to view the university ordinances : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>ADMISSION NOTIFICATION</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the admission notifications : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Please goto this link to view the admission notifications : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+			<li>Have a look over here to view the admission notifications : http://www.rknec.edu/R%20and%20D/PhD-Programme.aspx</li>
+		</random>
+	  </template>
+    </category>
+	<category>
+      <pattern>RESEARCH DEVRLOPMENT CELL</pattern>
+      <template>
+		<random>
+			<li>Click on this link to view the details regarding RandD Cell: http://www.rknec.edu/R%20and%20D/RandDCell.aspx</li>
+			<li>Please goto this link to view the details regarding RandD Cell : http://www.rknec.edu/R%20and%20D/RandDCell.aspx</li>
+			<li>Have a look over here to view the details regarding RandD Cell : http://www.rknec.edu/R%20and%20D/RandDCell.aspx</li>
+		</random>
+	  </template>
+    </category>
+	</aiml>
+	
+	
+	
+	
